@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+  box-sizing: border-box;
+}
+    body {
+      font-family:Arial, Helvetica, sans-serif;}
+   header { 
+        background-color:rgb(158, 6, 6) ;
+        padding: 30px;
+        text-align: center;
+        color: white;
+        font-size: 35px;}
+   nav { 
+        width: 20%;
+        height: 500px ;
+        padding: 20px;
+        float: left;
+        background-color: rgb(230, 162, 162);
+      } 
+   nav ul {
+      list-style-type: none;
+      padding: 0px;  
+      }
+   article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    height: 500px;
+    background-color:#f1f1f1;
+   }
+   section::after {
+  content: "";
+  display: table;
+  clear:both;
+}
+footer {
+  background-color: rgb(189, 4, 4);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+#circle>img{
+  width: 150px;
+
+  height: 150px;
+  border-radius: 50%;
+}
+nav ul a {
+    text-decoration:underline!important;
+    box-shadow: none!important;
+    color: blue;
+}
+footer>p {
+    font-weight: bolder;
+    
+}
+
+  </style>
+</head>
+<body>
+  <h1>Html Layout</h1>
+<header>
+  <h1>Well Come</h1>
+  <div  id="circle">
+    <img src="images/developer.png">
+  </div>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://www.dawateislami.net" target="_blank">Dawateislami</a></li><br>
+      <li><a href="https://www.google.com">Google</a></li><br>
+      <li><a href="https://www.youtube.com">Youtube</a></li>
+      
+    </ul>
+  </nav>
+  <article>
+      <h1>Doctor Muhammad Iqbal</h1>
+      <p>Mohammad Iqbal (1877-1938), a descendant of a Kashmiri Brahmin family that had embraced Islam in the 
+        seventeenth century, was born and settled in Sialkot. After a traditional education
+         in Arabic, Persian, and Urdu, he was exposed to a liberal education that defined the contours of his
+          thought and his poetry during the entire period of his life. Beginning his educational career
+           at the Scottish Mission School, he went on to acquire his M. A. in Philosophy,
+            before joining Trinity College, and later earning the 
+            degree of Bar-at-Law. He furthered his education by getting the degree of doctorate from Germany on
+             The Development of Metaphysics in Persia.</p>
+      <pre>ḳhudī ko kar buland itnā ki har taqdīr se pahle 
+
+        ḳhudā bande se ḳhud pūchhe batā terī razā kyā hai </pre>       
+      <h1>Qauid e Azam</h1>
+      <p>Mohammed Ali Jinnah, also called Qaid-i-Azam (Arabic: “Great Leader”), (born December 25, 1876?, 
+        Karachi, India [now in Pakistan]—died September 11, 1948, Karachi), Indian Muslim politician, 
+        who was the founder and first governor-general (1947–48) of Pakistan.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Thank You</p>
+
+</footer>
+
+
+</body>
+</html>
